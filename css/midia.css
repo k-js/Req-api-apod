@@ -1,0 +1,16 @@
+@media(max-width: 1108px){
+    .descricao-api{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 690px){
+    .descricao-api{
+        font-size: 10px;
+    }
+
+    .descricao-api img{
+        width: 200px;
+        height: 200px;
+    }
+}
