@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/midia.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Projeto semanal 4 - APOD</title>
+</head>
+<body>
+    <nav class="titulo-principal">
+        <h1>Astronomy Picture of the Day (APOD)</h1>
+        <p>Welcome to the NASA API portal. The objective of this site is to make NASA data, including imagery, eminently accessible to application developers. This catalog focuses on broadly useful and user friendly APIs and does not hold every NASA API.</p>
+    </nav>
+    <main class="container">
+        <p class="segundo-paragrafo">Choose a data</p>
+        <form id ="form" class="form">
+            <input type="date" name="data" id="data">
+            <input type="submit" value="submit" id="submit">
+        </form>
+
+        <span></span>
+    
+        <div class="descricao-api">
+            <h2 id="titulo"></h2>
+            <p id="descricao"></p>
+            <img id="img" src=""  >
+            <iframe src="" frameborder="0" id="video"></iframe>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2022 Keu Santos - Criado para fins didáticos </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
